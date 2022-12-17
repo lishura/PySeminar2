@@ -12,6 +12,7 @@ print(result)
 data = open('file.txt', 'r')
 mult1 = int(data.readline())
 mult2 = int(data.readline())
+data.close()
 if mult1 < n and mult2 < n:
     product = result[mult1]*result[mult2]
     print(product)
